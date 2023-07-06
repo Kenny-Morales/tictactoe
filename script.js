@@ -1,6 +1,6 @@
 let gameStorage = ["", "", "", "", "", "", "", "", ""];
 
-function userInput(cardNumber) {
+function userInput(cardNumber, turn) {
     switch (cardNumber) {
         case 1:
             gameStorage[0] = 1;
@@ -41,5 +41,6 @@ function userInput(cardNumber) {
     }
 }
 
-function playerTurn() {
+function computerInput() {
+
 }
