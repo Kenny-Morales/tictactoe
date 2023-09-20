@@ -1,46 +1,60 @@
 :root {
-    --primary: #20639B;
-    --secondary: rgb(248, 238, 238);
-    --marker: #868686;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-radius: 10px;
+  --primary: #20639b;
+  --secondary: rgb(248, 238, 238);
+  --marker: #868686;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 10px;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    height: 100vh;
-    background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100vh;
+  background-color: var(--primary);
 }
 .gameBoard {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 5px;
-    background-color: var(--primary);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  background-color: var(--primary);
 }
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--secondary);
-    height: 100px;
-    width: 100px;
-    border-radius: 10px;
-    font-size: 3rem;
-    font-weight: 600;
-    color: var(--marker);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--marker);
 }
-.winner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 50px;
-    background-color: var(--secondary);
-    border: 0;
-    border-radius: 10px;
-    font-weight: 700;
-    color: var(--marker);
+.winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: var(--secondary);
+  border: 0;
+  border-radius: 10px;
+  font-weight: 700;
+  color: var(--marker);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: var(--secondary);
+  border-radius: 10px;
+  font-weight: 700;
+  color: var(--marker);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
