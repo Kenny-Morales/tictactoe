@@ -2,7 +2,7 @@
 
 A simple and interactive Tic Tac Toe game built with HTML, CSS, and JavaScript.
 
-![Screenshot of the game](path-to-your-screenshot.png) <!-- Replace with the path to your screenshot -->
+Website: https://knnymrls.github.io/tictactoe/
 
 ## Features
 
